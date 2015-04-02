@@ -1,1 +1,1 @@
-A repo of just C# junk - nothing serious.
+A repo of C# junk - nothing serious.
