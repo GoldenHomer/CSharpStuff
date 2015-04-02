@@ -9,7 +9,7 @@ namespace Vowels {
 			char letter;
 			Console.WriteLine("Enter a letter");
 			letter = Convert.ToChar(Console.ReadLine());
-			// the case do not need statements if they are the same.
+			// the cases do not need statements if they will be the same.
 			switch (letter) {
 				case 'a';
 				case 'e';
