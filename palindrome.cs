@@ -11,7 +11,7 @@ namespace Palindrome {
 
 			j = arr.Length - 1;
 
-			while (i <=j) {
+			while (i <= j) {
 				if (arr[i] == arr[j]) {
 					i++;
 					j--;
