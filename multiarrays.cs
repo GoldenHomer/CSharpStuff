@@ -22,9 +22,11 @@ namespace MultiArray {
 				}
 
 				Console.WriteLine("Row sum is : {0}", rowsum);
+				totsum = totsum + rowsum;
 				rowsum = 0; // After each row, initialize the sum as zero. Without this, the second row's sum includes the first row and the third includes both 2nd and 1st.
 				Console.WriteLine();
 			}
+			Console.WriteLine("Total sum is: {0} ", totsum);
 		}
 	}
 }
