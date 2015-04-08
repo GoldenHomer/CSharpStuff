@@ -14,3 +14,6 @@ public class FunctionCount {
 		}
 	}
 }
+
+// All value types are created on the stack memory.
+// All references on the heap.
