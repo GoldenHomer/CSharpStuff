@@ -15,6 +15,16 @@ namespace Construct // Two types of contructors, static and instance
             num = 100;
         }
 
+        Program(int n)
+        {
+            num = n;
+        }
+
+        ~Program() // Destructor
+        {
+            Console.WriteLine("Destructor called");
+        }
+
         static void Main(string[] args)
         {
             Program p = new Program();
@@ -22,6 +32,9 @@ namespace Construct // Two types of contructors, static and instance
 
             Program p2 = new Program();
             Console.WriteLine("{0}", p2.num);
+
+            Program p3 = new Program(2);
+            Console.WriteLine("{0}", p3.num); // Should return 2
         }
     }
 }
