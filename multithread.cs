@@ -9,6 +9,7 @@ namespace Threading {
 		public void display() {
 			for(int i = 1; i <= 10; i++) {
 				Console.WriteLine("Good afternoon {0}", i);
+				Thread.Sleep(1000); // Pausing the thread.
 			}
 		}
 
@@ -28,10 +29,11 @@ namespace Threading {
 			ThreadStart ts2 = new ThreadStart(p.display2);
 			Thread th2 = new Thread(ts2);
 
-			th1.Start();
+			th1.Start(); // Executing a thread.
 			th2.Start();
 		}
 	}
 }
 
 // The threads should run parallel. The output doesn't necessarily need to be the same for every runtime.
+// The life cycle of a thread isn't too complicated.
