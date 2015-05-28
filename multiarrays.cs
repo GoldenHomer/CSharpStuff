@@ -30,3 +30,5 @@ namespace MultiArray {
 		}
 	}
 }
+
+// Realize that arrays in C# must be of the same type. Array lists are the indiscriminate ones.
