@@ -10,7 +10,6 @@ namespace DinerMax3000.Business
     {
         public Menu() {
             items = new List<MenuItem>();
-
         }
         private int _databaseId;
 
@@ -39,9 +38,7 @@ namespace DinerMax3000.Business
                     currentMenu.AddMenuItem(menuItemRow.Name, menuItemRow.Description, menuItemRow.Price);
                 }
             }
-
             return allMenus;
-        
         }
 
         public void AddMenuItem(string Title, string Description, double Price) 
