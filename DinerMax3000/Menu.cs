@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DinerMax3000.Business.dsDinerMax3000TableAdapters; //What
+
 namespace DinerMax3000.Business
 {
     public class Menu
